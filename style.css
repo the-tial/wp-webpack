@@ -1,0 +1,14 @@
+/* Theme Name: wp-webpack__change */
+
+/**
+ * This is the example style.css. wp-webpack doesn't use this file.
+ * It is still required by the Wordpress to read the config of your theme.
+ *
+ *
+ * Why wp-webpack doesn't save output CSS file here?
+ *
+ * The most obvious answer is that you might decide to bundle your CSS
+ * separately. Another thing is that copying configuration headers
+ * to minified styles requires additional Wordpress steps
+ * in the built process. It slows development and makes it messier.
+ */

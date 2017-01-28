@@ -1,0 +1,38 @@
+{
+  "__comment": "TODO Change the name, author and the description. Use any dependencies you want",
+  "name": "wp-webpack",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server --hot --inline --watch --content-base ../dist --config ./webpack.dev.config.js",
+    "start.es2017": "./node_modules/.bin/webpack-dev-server --hot --inline --watch --content-base ../dist --config ./es2017.webpack.dev.config.js",
+    "build": "./node_modules/.bin/webpack --config ./webpack.prod.config.js",
+    "build.es2017": "./node_modules/.bin/webpack --config ./es2017.webpack.prod.config.js"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "babel-polyfill": "^6.22.0",
+    "github-markdown-css": "^2.4.1",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "assets-webpack-plugin": "^3.5.1",
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-latest": "^6.22.0",
+    "css-loader": "^0.25.0",
+    "eslint": "^3.13.1",
+    "eslint-loader": "^1.6.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta.5",
+    "file-loader": "^0.9.0",
+    "node-sass": "^4.3.0",
+    "optimize-css-assets-webpack-plugin": "^1.3.0",
+    "postcss-loader": "^1.1.1",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0"
+  }
+}

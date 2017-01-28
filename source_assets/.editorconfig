@@ -1,0 +1,12 @@
+# This is the example .editorconfig for the javascript files
+# Feel free to modify the settings. Here is the spec: http://editorconfig.org/
+
+root = false
+
+[*.js]
+indent_style = space
+indent_size = 2
+
+[{package.json}]
+indent_style = space
+indent_size = 2
